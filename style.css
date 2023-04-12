@@ -219,7 +219,7 @@ body {
 .projects::after {
   content: "";
   position: absolute;
-  width: 20em;
+  width: 22em;
   height: 20em;
   background: #f953c6;
   background: -webkit-linear-gradient(
@@ -254,6 +254,7 @@ body {
   );
 }
 .projects .project_heading {
+ margin-left: 0.4em;
   margin-bottom: 0.4em;
   font-size: 6em;
   font-family: var(--font);
@@ -265,8 +266,8 @@ body {
 }
 .projects .container .main_box {
   width: 35em;
-  height: 12em;
-  margin: 0.5em 2em;
+  height: 20em;
+  margin: 1em 2em;
   justify-content: space-evenly;
   background: rgba(255, 255, 255, 0.116);
   backdrop-filter: blur(20px);
@@ -275,11 +276,11 @@ body {
 .projects .container .main_box .icon {
   width: 2em;
   height: 150px;
-  margin-left: 0.1em;
+  margin-left: 1em;
   font-size: 8em;
 }
 .projects .container .main_box .box {
-  width: 32em;
+  width: 25em;
   margin-left: 0.8em;
   padding-right: 0.5em;
 }
@@ -310,6 +311,125 @@ body {
   transform: translateX(0.2em);
   color: var(--secondary-color);
 }
+#particles-js2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Work experience  */
+.WorkExperience {
+  width: 100%;
+  padding: 2em 0;
+  position: relative;
+  flex-direction: column;
+  background: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.WorkExperience::before,
+.WorkExperience::after {
+  content: "";
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  background: #f953c6;
+  background: -webkit-linear-gradient(to right,
+      #b91d73,
+      #f953c6);
+  background: linear-gradient(to right,
+      #b91d73,
+      #f953c6);
+  border-radius: 50%;
+}
+
+.WorkExperience::before {
+  left: -10em;
+  bottom: 0;
+}
+
+.WorkExperience::after {
+  right: -10em;
+  top: 8em;
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right,
+      #4a00e0,
+      #8e2de2);
+  background: linear-gradient(to right,
+      #4a00e0,
+      #8e2de2);
+}
+
+.WorkExperience .project_heading {
+  margin-bottom: 0.4em;
+  font-size: 6em;
+  font-family: var(--font);
+}
+
+.WorkExperience .container {
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.WorkExperience .container .main_box {
+  width: 35em;
+  height: 12em;
+  margin: 1em 2em;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.116);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.199);
+}
+
+.WorkExperience .container .main_box .icon {
+  width: 2em;
+  height: 150px;
+  margin-left: 1em;
+  font-size: 8em;
+}
+
+.WorkExperience .container .main_box .box {
+  width: 25em;
+  margin-left: 0.8em;
+  padding-right: 0.5em;
+}
+
+.WorkExperience .container .main_box .box :is(h1, p) {
+  margin-bottom: 0.5em;
+}
+
+.WorkExperience .container .main_box .box p {
+  opacity: 0.6;
+}
+
+.WorkExperience .container .main_box .box .links a {
+  color: var(--light-color);
+  text-decoration: none;
+  margin-right: 0.4em;
+  transition: all 0.4s;
+}
+
+.dsa-info {
+  font-size: 100%;
+
+}
+
+.WorkExperience .container .main_box .box .links a i {
+  margin-left: 0.4em;
+  transition: all 0.4s;
+}
+
+.WorkExperience .container .main_box .box .links a:hover {
+  color: var(--secondary-color);
+}
+
+.WorkExperience .container .main_box .box .links a:hover i {
+  transform: translateX(0.2em);
+  color: var(--secondary-color);
+}
+
 #particles-js2 {
   width: 100%;
   height: 100%;
@@ -430,7 +550,7 @@ footer .social_media_icons a:hover i{
     font-size: 5em;
     font-family: var(--font);
   }
-  .projects .project_heading {
+  .WorkExperience .project_heading {
     margin-bottom: 0.4em;
     font-size: 5em;
     font-family: var(--font);
