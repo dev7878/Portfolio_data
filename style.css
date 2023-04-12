@@ -21,6 +21,8 @@
 }
 body {
   background: var(--bg);
+  margin: 0;
+  padding: 0;
   color: var(--color);
 }
 .center {
@@ -277,7 +279,7 @@ body {
   font-size: 8em;
 }
 .projects .container .main_box .box {
-  width: 20em;
+  width: 32em;
   margin-left: 0.8em;
   padding-right: 0.5em;
 }
@@ -294,7 +296,7 @@ body {
   transition: all 0.4s;
 }
 .dsa-info{
-  font-size: 100%;
+  font-size:100% ;
 
 }
 .projects .container .main_box .box .links a i {
@@ -347,7 +349,7 @@ footer .social_media_icons a:hover i{
   height: 200px;
   backdrop-filter: blur(20px);
   border-radius: 15px;
-  background: rgba(20, 20, 20, 0.178);
+  background-color:#0B4F6C;
   position: fixed;
   top: 250px;
   right: 10px;
@@ -361,10 +363,10 @@ footer .social_media_icons a:hover i{
   text-decoration: none;
 }
 .toggle .box a i{
-  font-size: 18px;
+  font-size: 15px;
 }
 .toggle .box a p{
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 8px
 }
 .toggle .box:nth-child(2){
@@ -377,7 +379,7 @@ footer .social_media_icons a:hover i{
   -webkit-appearance: none;
   cursor: pointer;
   border-radius: 10px;
-  background: rgb(31, 31, 31);
+  background: #343a40;
   border: 6px solid rgba(255, 255, 255, 0.459);
 }
 .toggle.active .box input{
