@@ -255,6 +255,7 @@ body {
 }
 .projects .project_heading {
  margin-left: 0.4em;
+ margin-right: 0.4em;
   margin-bottom: 0.4em;
   font-size: 6em;
   font-family: var(--font);
