@@ -219,7 +219,7 @@ body {
 .projects::after {
   content: "";
   position: absolute;
-  width: 22em;
+  width: 17em;
   height: 20em;
   background: #f953c6;
   background: -webkit-linear-gradient(
