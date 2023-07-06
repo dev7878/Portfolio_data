@@ -403,6 +403,7 @@ body {
   width: 25em;
   margin-left: 0.8em;
   padding-right: 0.5em;
+
 }
 .projects .container .main_box .box :is(h1, p) {
   margin-bottom: 0.5em;
@@ -507,7 +508,7 @@ body {
   width: 2em;
   height: 150px;
   margin-left: 1em;
-  font-size: 8em;
+  font-size: 10em;
 }
 
 .WorkExperience .container .main_box .box {
